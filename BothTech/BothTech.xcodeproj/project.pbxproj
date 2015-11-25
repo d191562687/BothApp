@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		295772E21C0405F3009BCDFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 295772E11C0405F3009BCDFB /* LaunchScreen.xib */; };
+		295772EC1C040920009BCDFB /* GlowImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 295772E51C040920009BCDFB /* GlowImageView.m */; };
+		295772ED1C040920009BCDFB /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 295772E71C040920009BCDFB /* MenuButton.m */; };
+		295772EE1C040920009BCDFB /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 295772E91C040920009BCDFB /* MenuItem.m */; };
+		295772EF1C040920009BCDFB /* PopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 295772EB1C040920009BCDFB /* PopMenu.m */; };
+		295772F21C040F90009BCDFB /* BTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 295772F11C040F90009BCDFB /* BTHomeViewController.m */; };
+		2957730C1C043E60009BCDFB /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 295773091C043E60009BCDFB /* UIBarButtonItem+Extension.m */; };
+		2957730D1C043E60009BCDFB /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2957730B1C043E60009BCDFB /* UIView+Extension.m */; };
+		2957730F1C044537009BCDFB /* IMG_0117.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2957730E1C044537009BCDFB /* IMG_0117.jpg */; };
+		295773111C045517009BCDFB /* IMG_0117.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 295773101C045517009BCDFB /* IMG_0117.jpg */; };
 		29943F021C031C8D0088DED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29943F011C031C8D0088DED3 /* main.m */; };
 		29943F051C031C8D0088DED3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29943F041C031C8D0088DED3 /* AppDelegate.m */; };
 		29943F081C031C8D0088DED3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29943F071C031C8D0088DED3 /* ViewController.m */; };
 		29943F0B1C031C8D0088DED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29943F091C031C8D0088DED3 /* Main.storyboard */; };
 		29943F0D1C031C8D0088DED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29943F0C1C031C8D0088DED3 /* Assets.xcassets */; };
-		29943F101C031C8D0088DED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29943F0E1C031C8D0088DED3 /* LaunchScreen.storyboard */; };
 		29943F1B1C031C8D0088DED3 /* BothTechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29943F1A1C031C8D0088DED3 /* BothTechTests.m */; };
 		29943F261C031C8D0088DED3 /* BothTechUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29943F251C031C8D0088DED3 /* BothTechUITests.m */; };
+		7736709109BA79FCA042047F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93101254A68BE24BD1371152 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		295772E11C0405F3009BCDFB /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		295772E41C040920009BCDFB /* GlowImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowImageView.h; sourceTree = "<group>"; };
+		295772E51C040920009BCDFB /* GlowImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlowImageView.m; sourceTree = "<group>"; };
+		295772E61C040920009BCDFB /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButton.h; sourceTree = "<group>"; };
+		295772E71C040920009BCDFB /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButton.m; sourceTree = "<group>"; };
+		295772E81C040920009BCDFB /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		295772E91C040920009BCDFB /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		295772EA1C040920009BCDFB /* PopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenu.h; sourceTree = "<group>"; };
+		295772EB1C040920009BCDFB /* PopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenu.m; sourceTree = "<group>"; };
+		295772F01C040F90009BCDFB /* BTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeViewController.h; sourceTree = "<group>"; };
+		295772F11C040F90009BCDFB /* BTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHomeViewController.m; sourceTree = "<group>"; };
+		295773081C043E60009BCDFB /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		295773091C043E60009BCDFB /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		2957730A1C043E60009BCDFB /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2957730B1C043E60009BCDFB /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2957730E1C044537009BCDFB /* IMG_0117.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0117.jpg; path = BothTechUITests/IMG_0117.jpg; sourceTree = SOURCE_ROOT; };
+		295773101C045517009BCDFB /* IMG_0117.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0117.jpg; sourceTree = "<group>"; };
 		29943EFD1C031C8D0088DED3 /* BothTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BothTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29943F011C031C8D0088DED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29943F031C031C8D0088DED3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,7 +70,6 @@
 		29943F071C031C8D0088DED3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		29943F0A1C031C8D0088DED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29943F0C1C031C8D0088DED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		29943F0F1C031C8D0088DED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29943F111C031C8D0088DED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29943F161C031C8D0088DED3 /* BothTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BothTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29943F1A1C031C8D0088DED3 /* BothTechTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BothTechTests.m; sourceTree = "<group>"; };
@@ -51,6 +77,9 @@
 		29943F211C031C8D0088DED3 /* BothTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BothTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29943F251C031C8D0088DED3 /* BothTechUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BothTechUITests.m; sourceTree = "<group>"; };
 		29943F271C031C8D0088DED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53EE1088C8CD1111F9271186 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		93101254A68BE24BD1371152 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF81BDCAFAFFCD5B25AC4794 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7736709109BA79FCA042047F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +108,156 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		295772E31C040920009BCDFB /* PopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				295772E41C040920009BCDFB /* GlowImageView.h */,
+				295772E51C040920009BCDFB /* GlowImageView.m */,
+				295772E61C040920009BCDFB /* MenuButton.h */,
+				295772E71C040920009BCDFB /* MenuButton.m */,
+				295772E81C040920009BCDFB /* MenuItem.h */,
+				295772E91C040920009BCDFB /* MenuItem.m */,
+				295772EA1C040920009BCDFB /* PopMenu.h */,
+				295772EB1C040920009BCDFB /* PopMenu.m */,
+			);
+			path = PopMenu;
+			sourceTree = "<group>";
+		};
+		295772F31C043BB7009BCDFB /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				295772F41C043BB7009BCDFB /* Category */,
+				295772F51C043BB7009BCDFB /* DataBase */,
+				295772F61C043BB7009BCDFB /* Network */,
+			);
+			name = Expand;
+			path = PopMenu/Expand;
+			sourceTree = "<group>";
+		};
+		295772F41C043BB7009BCDFB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		295772F51C043BB7009BCDFB /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		295772F61C043BB7009BCDFB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		295772F71C043BCF009BCDFB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		295772F81C043BD4009BCDFB /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				295773081C043E60009BCDFB /* UIBarButtonItem+Extension.h */,
+				295773091C043E60009BCDFB /* UIBarButtonItem+Extension.m */,
+				2957730A1C043E60009BCDFB /* UIView+Extension.h */,
+				2957730B1C043E60009BCDFB /* UIView+Extension.m */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		295772F91C043BD8009BCDFB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				295772FA1C043BD8009BCDFB /* Images */,
+				295772FB1C043BD8009BCDFB /* Plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		295772FA1C043BD8009BCDFB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		295772FB1C043BD8009BCDFB /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		295772FC1C043BDD009BCDFB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				295772FF1C043BDD009BCDFB /* Category */,
+				295773001C043BDD009BCDFB /* Controller */,
+				295773011C043BDD009BCDFB /* Home */,
+				295773041C043BDD009BCDFB /* Lib */,
+				295773051C043BDD009BCDFB /* Other */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		295772FF1C043BDD009BCDFB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		295773001C043BDD009BCDFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		295773011C043BDD009BCDFB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		295773041C043BDD009BCDFB /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		295773051C043BDD009BCDFB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		29943EF41C031C8D0088DED3 = {
 			isa = PBXGroup;
 			children = (
+				295772FC1C043BDD009BCDFB /* Main */,
+				295772F91C043BD8009BCDFB /* Resource */,
+				295772F81C043BD4009BCDFB /* Vender */,
+				295772F71C043BCF009BCDFB /* Home */,
+				295772F31C043BB7009BCDFB /* Expand */,
+				295772E31C040920009BCDFB /* PopMenu */,
 				29943EFF1C031C8D0088DED3 /* BothTech */,
 				29943F191C031C8D0088DED3 /* BothTechTests */,
 				29943F241C031C8D0088DED3 /* BothTechUITests */,
 				29943EFE1C031C8D0088DED3 /* Products */,
+				5D72433D70A56A62846C63FF /* Pods */,
+				4DF371C527F58CF8F889E1E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,9 +278,11 @@
 				29943F041C031C8D0088DED3 /* AppDelegate.m */,
 				29943F061C031C8D0088DED3 /* ViewController.h */,
 				29943F071C031C8D0088DED3 /* ViewController.m */,
+				295772F01C040F90009BCDFB /* BTHomeViewController.h */,
+				295772F11C040F90009BCDFB /* BTHomeViewController.m */,
 				29943F091C031C8D0088DED3 /* Main.storyboard */,
 				29943F0C1C031C8D0088DED3 /* Assets.xcassets */,
-				29943F0E1C031C8D0088DED3 /* LaunchScreen.storyboard */,
+				295772E11C0405F3009BCDFB /* LaunchScreen.xib */,
 				29943F111C031C8D0088DED3 /* Info.plist */,
 				29943F001C031C8D0088DED3 /* Supporting Files */,
 			);
@@ -117,6 +292,8 @@
 		29943F001C031C8D0088DED3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				295773101C045517009BCDFB /* IMG_0117.jpg */,
+				2957730E1C044537009BCDFB /* IMG_0117.jpg */,
 				29943F011C031C8D0088DED3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +317,23 @@
 			path = BothTechUITests;
 			sourceTree = "<group>";
 		};
+		4DF371C527F58CF8F889E1E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93101254A68BE24BD1371152 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D72433D70A56A62846C63FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF81BDCAFAFFCD5B25AC4794 /* Pods.debug.xcconfig */,
+				53EE1088C8CD1111F9271186 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +341,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29943F2A1C031C8D0088DED3 /* Build configuration list for PBXNativeTarget "BothTech" */;
 			buildPhases = (
+				9059A4E56BC4B3570EFCFB02 /* Check Pods Manifest.lock */,
 				29943EF91C031C8D0088DED3 /* Sources */,
 				29943EFA1C031C8D0088DED3 /* Frameworks */,
 				29943EFB1C031C8D0088DED3 /* Resources */,
+				FE7B1868BEB2435C595B4537 /* Embed Pods Frameworks */,
+				D2572C7C56F06F711E6DE6AF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +399,7 @@
 		29943EF51C031C8D0088DED3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BT;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = bothtech;
 				TargetAttributes = {
@@ -243,8 +441,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29943F101C031C8D0088DED3 /* LaunchScreen.storyboard in Resources */,
+				295773111C045517009BCDFB /* IMG_0117.jpg in Resources */,
 				29943F0D1C031C8D0088DED3 /* Assets.xcassets in Resources */,
+				295772E21C0405F3009BCDFB /* LaunchScreen.xib in Resources */,
 				29943F0B1C031C8D0088DED3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,19 +459,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2957730F1C044537009BCDFB /* IMG_0117.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9059A4E56BC4B3570EFCFB02 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2572C7C56F06F711E6DE6AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7B1868BEB2435C595B4537 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		29943EF91C031C8D0088DED3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2957730D1C043E60009BCDFB /* UIView+Extension.m in Sources */,
 				29943F081C031C8D0088DED3 /* ViewController.m in Sources */,
+				295772EC1C040920009BCDFB /* GlowImageView.m in Sources */,
 				29943F051C031C8D0088DED3 /* AppDelegate.m in Sources */,
+				295772EE1C040920009BCDFB /* MenuItem.m in Sources */,
+				295772EF1C040920009BCDFB /* PopMenu.m in Sources */,
+				295772ED1C040920009BCDFB /* MenuButton.m in Sources */,
+				2957730C1C043E60009BCDFB /* UIBarButtonItem+Extension.m in Sources */,
 				29943F021C031C8D0088DED3 /* main.m in Sources */,
+				295772F21C040F90009BCDFB /* BTHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +569,6 @@
 				29943F0A1C031C8D0088DED3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		29943F0E1C031C8D0088DED3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29943F0F1C031C8D0088DED3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,9 +658,11 @@
 		};
 		29943F2B1C031C8D0088DED3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF81BDCAFAFFCD5B25AC4794 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BothTech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BothTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +671,11 @@
 		};
 		29943F2C1C031C8D0088DED3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53EE1088C8CD1111F9271186 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BothTech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BothTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +749,7 @@
 				29943F2C1C031C8D0088DED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29943F2D1C031C8D0088DED3 /* Build configuration list for PBXNativeTarget "BothTechTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +758,7 @@
 				29943F2F1C031C8D0088DED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29943F301C031C8D0088DED3 /* Build configuration list for PBXNativeTarget "BothTechUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +767,7 @@
 				29943F321C031C8D0088DED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

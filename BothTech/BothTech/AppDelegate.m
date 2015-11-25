@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "BTHomeViewController.h"
 
 @interface AppDelegate ()
+
+@property (weak,nonatomic) BTHomeViewController * viewController;
 
 @end
 
@@ -17,6 +20,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+
+        
     return YES;
 }
 
